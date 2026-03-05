@@ -66,6 +66,12 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	background-color: black;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	
+
 }
 
 /* Sidebar */
