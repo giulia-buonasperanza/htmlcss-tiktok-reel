@@ -34,7 +34,26 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+    color:white;
+	display:flex;
+	
 }
+
+.user-action {
+	padding:10px;
+}
+
+.user-action{
+	display:flex;
+	flex-wrap: nowrap;
+	align-items: center;
+    justify-content: space-around;
+	flex-grow: 1;
+}
+
+.user-action:last-child{
+	border-bottom: #fff;
+}  /*??*/
 
 /* Footer */
 
