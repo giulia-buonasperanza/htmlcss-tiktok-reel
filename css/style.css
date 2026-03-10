@@ -83,6 +83,15 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	color: #fff;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: center;
+}
+
+.real-main {
+	display:flex;
 }
 
 /* ---------------------
