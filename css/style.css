@@ -33,27 +33,29 @@ video {
 	right: 0;
 
 	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
-    color:white;
+	le*/ 
+
+	color:white;
 	display:flex;
+	padding:20px;
+	}
+
+.user-action 
+{
+	display: flex;
+	gap:10px;
+}
+
+.user-action .action:first-child,
+.user-action .action:nth-of-type(2)
+{
+	opacity: 0.5;
+}
+
+.user-action .action:last-child{
+	color:white;
 	
 }
-
-.user-action {
-	padding:10px;
-}
-
-.user-action{
-	display:flex;
-	flex-wrap: nowrap;
-	align-items: center;
-    justify-content: space-around;
-	flex-grow: 1;
-}
-
-.user-action:last-child{
-	border-bottom: #fff;
-}  /*??*/
 
 /* Footer */
 
@@ -66,13 +68,21 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
-	background-color: black;
-	display:flex;
-	align-items: center;
-	justify-content: space-around;
-	
 
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	margin: 0 auto;
+	background-color: black;
+	
+	
 }
+
+footer p {
+	font-size: 15px;
+}
+
+
 
 /* Sidebar */
 .sidebar {
@@ -83,13 +93,18 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
-	color: #fff;
-	display: flex;
-	flex-direction:row;
-	align-items: center;
-	justify-content: center;
-}
 
+	display:flex;
+	flex-direction: column;
+	color: white;
+	align-items: center;
+	font-size: 14px;
+	column-gap: 25px;
+}
+.sidebar-btn .sidebar-icon img {
+	height: 30px;
+	aspect-ratio: 1;
+}
 .real-main {
 	display:flex;
 }
